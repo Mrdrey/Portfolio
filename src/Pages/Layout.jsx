@@ -1,7 +1,8 @@
-import React from 'react'
-import { Outlet, Link } from "react-router-dom";
+import React ,{useState}from 'react'
+import { Outlet} from "react-router-dom";
+import { NavLink } from "react-router";
 import './css/Layout.css'
-
+import Footer from '../components/Footer';
 const Layout = () => {
 
   return (
@@ -16,18 +17,26 @@ const Layout = () => {
             <nav>
           <ul>
             <li>
-              <Link to="/" >About</Link>
+              <NavLink to='/' >Home</NavLink>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <NavLink to='/about' >About</NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink to='/projects' >Projects</NavLink>
             </li>
+            <li>
+              <NavLink to='/contact' >Contact</NavLink>
+            </li>
+          
           </ul>
         </nav>
+
+        
         </header>
+        
         <Outlet/>
+        <Footer/>
     </>
   )
 }
