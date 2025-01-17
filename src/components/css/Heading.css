@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    height: 90vh;
+    align-items:center;
+    column-gap: 70px;
+    
+}
+.headline{
+    
+   
+}
+.headline p{ 
+    text-align: justify;
+    padding-top: 10px;
+   
+}
