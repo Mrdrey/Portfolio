@@ -34,3 +34,7 @@ a.active{
     color:white;
     background-color: black;
 }
+.name-link{
+    text-decoration: none;
+    color: black;
+}

@@ -1,6 +1,6 @@
 import React ,{useState}from 'react'
 import { Outlet} from "react-router-dom";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import './css/Layout.css'
 import Footer from '../components/Footer';
 const Layout = () => {
@@ -10,15 +10,15 @@ const Layout = () => {
         <header>
             <div className="header">
                 <div className="title">
-                    <h1>Andre Brizuela</h1>
+                   <Link to='/' className="name-link" ><h1>Andre Brizuela</h1></Link>
                 </div>
             </div>
 
             <nav>
           <ul>
-            <li>
+            {/* <li>
               <NavLink to='/' >Home</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to='/about' >About</NavLink>
             </li>

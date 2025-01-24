@@ -2,15 +2,14 @@
     display: flex;
     height: 90vh;
     align-items:center;
-    column-gap: 70px;
+    justify-content: center;
+    column-gap: 150px;
+    background-color: white;
     
-}
-.headline{
-    
-   
 }
 .headline p{ 
     text-align: justify;
     padding-top: 10px;
+    width: 400px;
    
 }
