@@ -7,7 +7,7 @@ const Heading = () => {
         <div className="headline">
             <h1>Hi!<span>I'm Andre</span></h1>
             
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iure nulla. Laudantium nemo deserunt similique, fuga numquam nisi. Iure atque nesciunt velit esse voluptatibus vero sapiente ad tempore quos in.</p>
+            <p>Hi, Im Andre a 4th Year student Computer Science student at Taguig City University</p>
             
         </div>
         <div className="image">
