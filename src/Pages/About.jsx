@@ -1,5 +1,9 @@
 import React from 'react'
 import './css/About.css'
+import image from '../assets/csharp.png'
+import nodejs from '../assets/node.png'
+
+
 const About = () => {
 
   return (
@@ -9,39 +13,65 @@ const About = () => {
         <h1>About</h1>
       </div>
       <div className="overview">
-        
+        <h3 >Overview</h3>
       <div className="phrase">
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere alias recusandae ad suscipit tenetur laborum fuga officiis. Temporibus odio quo doloremque quaerat ducimus! Pariatur voluptates beatae nulla modi sed! Tenetur quo repudiandae cum amet laborum! Rerum repellat nulla culpa perspiciatis sed excepturi quae distinctio iure rem corporis? Temporibus recusandae consequuntur molestiae ut provident officiis dolores. Unde, magni quidem. Enim illo vel quas minus tempora unde libero praesentium? Quasi, officiis aliquam. A nemo, corrupti, perferendis minus officia illo ut suscipit porro itaque totam, voluptas nihil quod eius soluta! Nesciunt fuga minima, ex repellendus hic esse magni aperiam adipisci dolores earum quam nihil cumque, nemo corrupti omnis eos sit. Rem quasi, ullam facilis accusamus maiores pariatur facere ad soluta odit consectetur ab.
-      </p>
+      I am a motivated and passionate individual committed to continuous learning and self-improvement. With a solid foundation in Web and Mobile Development, I have cultivated skills that reflect my adaptability, perseverance, and proactive approach to challenges throughout my academic journey. Beyond technical expertise, I am driven by a deep curiosity for innovation and a commitment to solving real-world problems through technology.  I am eager to apply my knowledge and grow further as I step into professional opportunities in the tech industry. </p> 
       </div>
       </div>
 
       {/* skills bar */}
       <div className="skills-container">
         <h2>Technical Stack</h2>
-      <p>JavaScript</p>
-      <div className="container-skill-bar">
-        <div className="skills js">65%</div>
-      </div>
 
+      </div>
      
+      <div className="other-skills">
+        
+       
+              <div className='skill-container'>
+              <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="html" />
+             
+              </div>
 
-      <p>C#</p>
-      <div className="container-skill-bar">
-        <div className="skills csharp">40%</div>
-      </div>
-          <p>HTMl</p>
-              <div className="container-skill-bar">
-        <div className="skills html">90%</div>
-      </div>
 
-      <p>CSS</p>
-      <div className="container-skill-bar">
-        <div className="skills css">80%</div>
-      </div>
+              <div className='skill-container'>
+              <img src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" alt="css" />
+             
+              </div>
 
-    
+              <div className='skill-container'>
+              <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="javascript" />
+           
+              </div>
+              <div className='skill-container'>
+              <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="javascript" />
+           
+              </div>
+
+              <div className='skill-container'>
+              <img src={image} alt="csharp" style={{width:90}}/>
+            
+              </div>
+
+
+              <div className='skill-container'>
+              <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="mongodb" style={{width:135}}/>
+           
+              </div>
+              <div className='skill-container'>
+              <img src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000" alt="mongodb"/>
+              
+              </div>
+              <div className='skill-container'>
+              <img src={nodejs} alt="nodejs" style={{width:100,paddingTop:25}}/>
+             
+              </div>
+              <div className='skill-container'>
+              <img src="https://img.icons8.com/?size=100&id=8gfeOoqrHqJU&format=png&color=000000" alt="mongodb"/>
+              
+              </div>
+
 
       </div>
     </div>

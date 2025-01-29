@@ -8,6 +8,7 @@ const Footer = () => {
   return (
     <div>
         <div className="Heading">
+        
             <h1>Andre Brizuela</h1>
             <p>Truth is a deep Kindness that teaches us to be content in our everyday life and share with the people the same happiness.</p>
             <div className="soc-med">

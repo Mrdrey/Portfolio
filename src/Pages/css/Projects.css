@@ -1,0 +1,20 @@
+.container-projects{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    column-gap: 20px;
+}
+.title-projects h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #020202;
+    
+}
