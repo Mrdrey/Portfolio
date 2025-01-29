@@ -1,5 +1,6 @@
 import React from 'react'
 import '../components/css/Heading.css'
+import myImage from '../assets/me.png'
 const Heading = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const Heading = () => {
             
         </div>
         <div className="image">
-        <img src="https://placehold.co/600x400" alt="andreImage" />
+        <img src={myImage} alt="andreImage"  style={{width:630}}/>
         </div>
         </div>
 
