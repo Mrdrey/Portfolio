@@ -1,5 +1,6 @@
 import todoImage from '../assets/todo.png'
 import primeImage from '../assets/prime.png'
+import weatherImage from '../assets/weather.png'
 const links = [
     {
       title: 'Prime Number Checker',
@@ -17,7 +18,7 @@ const links = [
       title: 'Weather App',
       text: 'user-friendly and responsive React application that provides real-time weather updates and a 5-day forecast for any city worldwide. It utilizes Open-Meteo API for accurate weather data and Geocode Maps API for location-based searches.',
       link: 'https://weather-app-mauve-ten-25.vercel.app/',
-      Image: todoImage
+      Image: weatherImage
     },
 
   ]
