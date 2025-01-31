@@ -16,7 +16,7 @@ const links = [
     },
     {
       title: 'Weather App',
-      text: 'user-friendly and responsive React application that provides real-time weather updates and a 5-day forecast for any city worldwide.',
+      text: 'User-friendly and responsive React application that provides real-time weather updates and a 5-day forecast for any city worldwide.',
       link: 'https://weather-app-mauve-ten-25.vercel.app/',
       Image: weatherImage
     },
