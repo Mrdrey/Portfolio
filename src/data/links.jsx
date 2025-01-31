@@ -14,17 +14,12 @@ const links = [
       Image: todoImage
     },
     {
-      title: 'Todo List',
-      text: 'Stay organized and boost productivity with this simple and efficient to-do list app.',
+      title: 'Weather App',
+      text: 'user-friendly and responsive React application that provides real-time weather updates and a 5-day forecast for any city worldwide. It utilizes Open-Meteo API for accurate weather data and Geocode Maps API for location-based searches.',
       link: 'https://prime-number-checker-e66jjd2iv-dreys-projects-8dd80770.vercel.app/',
       Image: todoImage
     },
-    {
-      title: 'Todo List',
-      text: 'Stay organized and boost productivity with this simple and efficient to-do list app.',
-      link: 'https://prime-number-checker-e66jjd2iv-dreys-projects-8dd80770.vercel.app/',
-      Image: todoImage
-    }
+
   ]
 
 export default links;
