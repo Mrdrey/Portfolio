@@ -3,7 +3,7 @@ import { ContactUs } from '../components/Form'
 import './css/Contact.css'
 const Contact = () => {
   return (
-   <>
+  
    <div className="container-contact">
 
    <div>
@@ -12,8 +12,7 @@ const Contact = () => {
    
    <ContactUs/>
    </div>
-    
-   </>
+ 
   )
 }
 

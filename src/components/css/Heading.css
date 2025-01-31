@@ -21,3 +21,36 @@ h1,span{
     font-weight: 600;
     font-size: 2.5rem;
 }
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .headline h1 {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .headline h1 span {
+    animation: fadeIn 2s ease-in-out 1s;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .image img {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
