@@ -12,7 +12,7 @@ const Heading = () => {
             
         </div>
         <div className="image">
-        <img src={myImage} alt="andreImage"  style={{width:730}}/>
+        <img src={myImage} alt="andreImage"  style={{width:550}}/>
         </div>
         </div>
 

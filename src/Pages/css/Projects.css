@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 70px;
+    padding-top: 30px;
     column-gap: 20px;
 }
 .title-projects h2{

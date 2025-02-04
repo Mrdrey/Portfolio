@@ -48,7 +48,7 @@
     font-size: 2rem;
     font-weight: 700;
     color: #020202;
-    padding-left: 200px;
+
     
 }
 .container-skill-bar{
@@ -77,7 +77,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 10px 200px; 
+    padding: 10px 100px; 
 
 }
 .phrase {
@@ -96,7 +96,7 @@
     color: #020202;
 }
 .other-skills{
-    padding: 20px 400px;
+    padding: 20px ;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(5, 1fr);
